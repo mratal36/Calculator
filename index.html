@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+   <div class="background-style">
+
+       <!-- for upper side -->
+
+    <div class="upper"></div>
+
+    <div class="mainContainer">
+        <!-- toggler for light and dark modes -->
+        <div class="toggler-div">
+            <div class="toggle">
+                <div class="toggler"><img class="togglerImg" src="./svgfolder/sun.svg" alt=""></div>
+            </div>
+            <div class="text">Switch to Dark</div>
+        </div>
+        
+        
+        <!-- screen for calculation to be displayed -->
+
+        <div class="screen">
+            <div class="cal-contain">
+                <div class="question"></div>
+                <div class="result"></div>
+            </div>
+        </div>
+
+        <!--seperator for calculator-->
+
+        <div class="seperator"></div>
+
+        <!-- clear zone for calci -->
+        
+        <div class="clear"><img src="./svgfolder/clear.svg" alt="claer-btn"></div>
+        
+        <!-- operational container-->
+
+        <div class="op-container">
+            <!-- first section of operators -->
+            <div class="operations first-1">C</div>
+            <div class="operations first-1 brackets">()</div>
+            <div class="operations first-1">%</div>
+            <div class="operations last-1">/</div>
+            
+            <!-- second section of operators -->
+            
+            <div class="operations middle-1">7</div>
+            <div class="operations middle-1">8</div>
+            <div class="operations middle-1">9</div>
+            <div class="operations last-1">*</div>
+            
+            <!-- third section of operators -->
+            <div class="operations middle-1">4</div>
+            <div class="operations middle-1">5</div>
+            <div class="operations middle-1">6</div>
+            <div class="operations last-1">-</div>
+            
+            <!-- fourth section of operators -->
+            <div class="operations middle-1">1</div>
+            <div class="operations middle-1">2</div>
+            <div class="operations middle-1">3</div>
+            <div class="operations last-1">+</div>
+            
+            <!-- fifth section of operators -->
+
+            <div class="operations middle-1 plus-minus">+/-</div>
+            <div class="operations middle-1">0</div>
+            <div class="operations middle-1">.</div>
+            <div class="operations last-2">=</div>
+
+        </div>
+    </div>
+    <!-- for lower side -->
+    <div class="lower"></div>
+   </div>
+    <script src="./mode.js"></script>
+    <script src="./callogic2.js"></script>
+</body>
+</html>
